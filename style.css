@@ -1,0 +1,8 @@
+body { font-family: Arial; max-width: 900px; margin: auto; padding: 20px; background: #f4f6f8; }
+.cards { display: flex; gap: 15px; flex-wrap: wrap; }
+.card { flex: 1; min-width: 200px; background: #fff; padding: 15px; border-radius: 10px;
+        box-shadow: 0 2px 6px #0002; text-align: center; }
+.value { font-size: 2em; font-weight: bold; color: #1976d2; }
+button { padding: 12px 24px; font-size: 1em; margin: 5px; border: none; border-radius: 8px;
+         cursor: pointer; background: #9e9e9e; color: #fff; }
+button.on { background: #e53935; }

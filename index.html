@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Runner Monitor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/mqtt@5.3.4/dist/mqtt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <h2>🏃 Runner Monitor</h2>
+  <p>Trạng thái MQTT: <b id="status">Đang kết nối...</b></p>
+
+  <div class="cards">
+    <div class="card">Nhiệt độ<div class="value"><span class="temp">--</span> °C</div></div>
+    <div class="card">Áp suất<div class="value"><span class="pressure">--</span> hPa</div></div>
+    <div class="card">Độ cao<div class="value"><span class="altitude">--</span> m</div></div>
+  </div>
+
+  <h3>Điều khiển (Manual)</h3>
+  <button id="btnLed">LED: OFF</button>
+  <button id="btnBuzzer">LOA: OFF</button>
+
+  <canvas id="chartTemp" height="100"></canvas>
+  <canvas id="chartAlt" height="100"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
