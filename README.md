@@ -10,7 +10,7 @@ chạy 3 task FreeRTOS, gửi dữ liệu lên MQTT broker và điều khiển L
 ## Liên kết
 - Mô phỏng Wokwi: https://wokwi.com/projects/480463985996579841
 - Báo cáo đầy đủ: [Lap3_NguyenVanCuong.docx](Lap3_NguyenVanCuong.docx)
-- Demo web: https://nguyencuong-19.github.io/lab3-runner-monitor/
+- Demo web: http://127.0.0.1:5500/index.html
 
 ## Cấu trúc
 - `ESP32/sketch.ino`: code ESP32 (3 task: truyền data Core 0, đọc data và cảnh báo Core 1)
